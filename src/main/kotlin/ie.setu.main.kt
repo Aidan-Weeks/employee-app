@@ -1,28 +1,29 @@
 fun main(){
     println("Pay Slip Printer")
-    println("-------------------------------------------")
-    println("|              monthly Payslip            |")
-    println("|                                         |")
-    println("-------------------------------------------")
-    println("|                                         |")
-    println("| employee Name: $firstName $Surname $gender Employee ID: $employeeId |")
-    println("|                                         |")
-    println("-------------------------------------------")
-    println("|                                         |")
-    println("| PAYMENT DETAILS      DEDUCTION DETAILS  |")
-    println("|                                         |")
-    println("-------------------------------------------")
-    println("|   Salary:  ${"%.2f".format(grossSalary/12)}       PAYE:  ${"%.2f".format(((grossSalary/12)/100)*PAYE)}   |")
-    println("|   Bonus: ${"%.2f".format(bonus)}       PRSI: " + "%.2f".format(((grossSalary/12)/100)*PRSI) + "     |")
-    println("|                 Cycle To Work: + ${CycleToWorkScheme} +     |")
-    println("|                                         |")
-    println("-------------------------------------------")
-    println("|  Gross:  + ${"%.2f".format((grossSalary/12) + bonus)}      Total Deductions:   ${"%.2f".format(((grossSalary/12)/100)*PAYE)}  ${((((grossSalary/12)/100)*PRSI) + CycleToWorkScheme)}    |")
-    println("|                                         |")
-    println("-------------------------------------------")
-    println("|             Net Pay:  + ${"%.2f".format((((grossSalary/12) + bonus) - (((grossSalary/12)/100)*PAYE) + ((grossSalary/12)/100)*PRSI) + CycleToWorkScheme)}             |")
-    println("|                                         |")
-    println("-------------------------------------------")
+    println(
+    """-----------------------------------------------
+        |              monthly Payslip                |
+        |                                             |
+        |---------------------------------------------|
+        |                                             |
+        | employee Name: $firstName $Surname $gender Employee ID: $employeeId |
+        |                                            |
+        ----------------------------------------------
+        |                                            |
+        | PAYMENT DETAILS      DEDUCTION DETAILS     |
+        |                                            |
+        ----------------------------------------------
+        |   Salary:  ${"%.2f".format(grossSalary/12)}       PAYE:  ${"%.2f".format(((grossSalary/12)/100)*PAYE)}    |
+        |   Bonus: ${"%.2f".format(bonus)}       PRSI: + ${"%.2f".format(((grossSalary/12)/100)*PRSI)}      |
+        |              Cycle To Work: + ${CycleToWorkScheme} +     |
+        |                                            |
+        ----------------------------------------------
+        |  Gross:  ${"%.2f".format((grossSalary/12) + bonus)}      Total Deductions:   ${"%.2f".format(((grossSalary/12)/100)*PAYE + ((((grossSalary/12)/100)*PRSI) + CycleToWorkScheme))}  |
+        |                                            |
+        ----------------------------------------------
+        |             Net Pay:  + ${"%.2f".format((((grossSalary/12) + bonus) - (((grossSalary/12)/100)*PAYE) + ((grossSalary/12)/100)*PRSI) + CycleToWorkScheme)}             |
+        |                                            |
+        ----------------------------------------------""")
 
 }
 
