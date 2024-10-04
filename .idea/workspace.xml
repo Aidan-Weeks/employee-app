@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21a59584-75bf-4651-a233-68d93c466040" name="Changes" comment="Chang to String templates">
+    <list default="true" id="21a59584-75bf-4651-a233-68d93c466040" name="Changes" comment="Change to raw strings">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Employee.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie.setu.main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie.setu.main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +41,12 @@
     &quot;assignee&quot;: &quot;Aidan-Weeks&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aidan-Weeks/employee-app.git",
-    "accountId": "598169ab-1c39-43f5-a30d-b5e2c9729b2d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aidan-Weeks/employee-app.git&quot;,
+    &quot;accountId&quot;: &quot;598169ab-1c39-43f5-a30d-b5e2c9729b2d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -57,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build employee-app.executor": "Run",
+    "Kotlin.Ie_setu_mainKt (1).executor": "Run",
     "Kotlin.Ie_setu_mainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -72,7 +75,14 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.Ie_setu_mainKt (1)">
+    <configuration name="Ie_setu_mainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ie.setu.Ie_setu_mainKt" />
+      <module name="employee-app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ie_setu_mainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ie_setu_mainKt" />
       <module name="employee-app.main" />
@@ -82,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Ie_setu_mainKt (1)" />
         <item itemvalue="Kotlin.Ie_setu_mainKt" />
       </list>
     </recent_temporary>
@@ -112,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727446391915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change to raw strings">
+      <option name="closed" value="true" />
+      <created>1727447327268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727447327268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,25 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed to String templates" />
     <MESSAGE value="Chang to String templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chang to String templates" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/ie.setu.main.kt</url>
-          <properties method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Change to raw strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to raw strings" />
   </component>
 </project>
